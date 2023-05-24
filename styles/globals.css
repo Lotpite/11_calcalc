@@ -25,3 +25,27 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.neu {
+  border-radius: 20px;
+  background: #f2f2f2;
+  box-shadow:  20px 20px 60px #cecece,
+              -20px -20px 60px #ffffff;
+}
+
+.btn_neu {
+  border-radius: 20px;
+  background: #f2f2f2;
+  box-shadow:  20px 20px 60px #cecece,
+              -20px -20px 60px #ffffff;
+}
+.active {
+    box-shadow: inset 20px 20px 60px #cecece,
+            inset -20px -20px 60px #ffffff;
+  }
+
+.btn_neu:active{
+  border-radius: 20px;
+  box-shadow: inset 20px 20px 60px #cecece,
+            inset -20px -20px 60px #ffffff;
+}
