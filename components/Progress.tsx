@@ -14,7 +14,7 @@ const Progress = ({ percent }: IProgressProps) => {
   },[])
 
   return (
-    <div className='flex flex-col justify-center items-center relative'>
+    <div className='flex flex-col w-52 justify-center items-center relative'>
         <div className="bar">
         <style>
           {`
@@ -38,7 +38,7 @@ const Progress = ({ percent }: IProgressProps) => {
               {/* </circle> */}
             </svg>
         </div>
-        <p className='absolute text-2xl'>80</p>
+        <p className='absolute text-2xl'>1200</p>
     </div>
   )
 }

@@ -3,8 +3,8 @@ import Progress from './Progress'
 
 const Daily = () => {
   return (
-    <div className='flex flex-col justify-center w-full items-center sm:gap-20'>
-      <div className='flex flex-row justify-around w-full items-center sm:gap-5'>
+    <div className='flex flex-col justify-center w-full items-center md:gap-18 gap-10'>
+      <div className='flex flex-row flex-row justify-around items-center md:gap-20 gap-5'>
         <div className='flex flex-col items-center'>
           <h5 className='text-xl text-gray-400'>Left</h5>
           <p className='text-lg text-green-500 font-semibold'>400</p>
@@ -16,8 +16,8 @@ const Daily = () => {
         </div>
       </div>
 
-      <div className='flex flex-row w-full justify-between items-center sm:gap-10'>
-        <div className='flex flex-col items-center'>
+      <div className='flex flex-row justify-center w-5/6 lg:gap-36 md:gap-20 sm:gap-14 gap-8 items-center md:mt-10'>
+        <div className='flex flex-col items-center justify-center'>
           <h5 className='text-md text-gray-400'>Breakfast</h5>
           <p className='text-sm text-green-500 font-semibold'>400</p>
         </div>
