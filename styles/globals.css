@@ -98,6 +98,7 @@ svg {
   width: 100%;
   height: 100%;
   position: relative;
+  transform: rotate(-90deg);
 }
 
 svg circle {
@@ -105,20 +106,21 @@ svg circle {
   transform: scale(0.939);
   transform-origin: center;
   fill: none;
-  stroke: rgba(220, 20, 60, 0.308);
+  stroke: #84edabd5;
   stroke-width: 30px;
   stroke-dasharray: 630px;
+ 
   /* stroke-dashoffset: 630px; */
 }
-.bar:nth-child(1) svg circle {
-  animation: bar_1 1s ease forwards;
+.bar svg circle {
+  animation: bar_circle 1s ease forwards;
 }
 
-@keyframes bar_1 {
+/* @keyframes bar_circle {
   0% {
     stroke-dashoffset: 630px;
   }
   100% {
     stroke-dashoffset: calc(630px - (630px * 90) / 100);
   }
-}
+} */
